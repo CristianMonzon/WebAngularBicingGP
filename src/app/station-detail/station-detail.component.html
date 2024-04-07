@@ -1,0 +1,41 @@
+<div class="tabla-general-bootstrap">
+  <div class="container">
+      <div class="row">
+        <div class="col-12">
+           <div class="tituloSeccion">
+               Datos de la estación de bicing {{ station?.id }}
+           </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12 p-1">
+          <b>Tipo : </b> {{ station?.type }}
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12 p-1">
+          <b>Dirección :</b> {{ station?.address }} ({{station?.postcode}}) Barcelona
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12 p-1">
+          <b>Altitudes :</b> {{station?.altitude}} metros
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12 p-1">
+          <b>Capacidad :</b> {{station?.capacity}} bicicletas
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12 p-1">
+          <b>Coordenadas Google maps :</b> {{station?.x}},{{station?.y}}
+        </div>
+      </div>
+  </div>
+</div>

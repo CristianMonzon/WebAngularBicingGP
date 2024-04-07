@@ -6,14 +6,12 @@ import { RouterModule } from '@angular/router';
 
 
 import { AppComponent } from './app.component';
-import { TopBarComponent } from './top-bar/top-bar.component';
-import { BottomBarComponent } from './bottom-bar/bottom-bar.component';
-import { ProductListComponent } from './product-list/product-list.component';
-import { ProductAlertsComponent } from './product-alerts/product-alerts.component';
-import { ProductDetailsComponent } from './product-details/product-details.component';
-import { ShippingComponent } from './shipping/shipping.component';
-import { CartComponent } from './cart/cart.component';
+import { AppHeaderComponent  } from './app-header/app-header.component';
+import { StationsComponent } from './stations/stations.component';
+import { StationDetailComponent } from './station-detail/station-detail.component';
 
+import { gpRoutesMap } from '../domain/routes';
+import { AppFooterComponent } from './app-footer/app-footer.component';
 
 @NgModule({
   imports: [
@@ -21,22 +19,14 @@ import { CartComponent } from './cart/cart.component';
     HttpClientModule,
     ReactiveFormsModule,
     RouterModule.forRoot(
-    [
-      { path: '', component: ProductListComponent },
-      { path: 'products/:productId', component: ProductDetailsComponent },      
-      { path: 'cart', component: CartComponent },      
-      { path: 'shipping', component: ShippingComponent },      
-    ]),
+    gpRoutesMap),
   ],
   declarations: [
+    StationsComponent,
     AppComponent,
-    TopBarComponent,
-    ProductListComponent,
-    ProductAlertsComponent,
-    ProductDetailsComponent,
-    CartComponent,   
-    ShippingComponent, BottomBarComponent 
-  ],
+    AppHeaderComponent,
+    AppFooterComponent,
+  ],  
   bootstrap: [AppComponent],
 })
 
