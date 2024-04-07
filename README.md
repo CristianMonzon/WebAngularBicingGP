@@ -6,7 +6,7 @@ Con este prototipo estoy migrando la aplicación al FrameWork angular.
 
 El desarrollo se base en la metodología TDD basada en el desarrollo y diseño principal de los test unitario.
 
-Puedes ver el seguimiento de los test en la [pagina de coverage](http://api.gestion-personal.com/coverage/)
+Puedes ver el seguimiento de los test en la [pagina de coverage](https://api.gestion-personal.com/coverage/)
 
 ### Robot BicingGP
 
