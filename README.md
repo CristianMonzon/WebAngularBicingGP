@@ -6,7 +6,7 @@ Con este prototipo estoy migrando la aplicación al FrameWork angular.
 
 El desarrollo se base en la metodología TDD basada en el desarrollo y diseño principal de los test unitario.
 
-Puedes ver el seguimiento de los test en la [http://api.gestion-personal.com/coverage/](pagina de coverage)
+Puedes ver el seguimiento de los test en la [pagina de coverage](http://api.gestion-personal.com/coverage/)
 
 ### Robot BicingGP
 
@@ -17,6 +17,8 @@ La aplicación BicingGP consiste en un robot que obtiene las estádisticas de ca
 La aplicación se desarrolló inicialmente en ASP.NET 4.7.1. En esta versión estoy desarrollando una WebAPI en .NET Core para obtener los datos de las estaciones y los estados de cada anclaje en cada estación.
 
 ### Enlace 
+
+El prototipo en Angular está disponible en un servidor [Cloud de Azure](https://purple-forest-0d0940010.5.azurestaticapps.net/)
 
 La aplicación final la puedes ver en el enlace [BicingGP](http://www.gestion-personal.com/bicing)
 
